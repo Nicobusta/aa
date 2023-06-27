@@ -4,7 +4,7 @@ let scrollElement = document.querySelectorAll('.animated-text');
 function animateText() {
     scrollElement.forEach(text => {
       const textPosition = text.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight/1.2;
+      const windowHeight = window.innerHeight/1.1;
       if (textPosition < windowHeight) {
         text.classList.add('animacion-dinamica');
         
