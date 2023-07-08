@@ -265,16 +265,15 @@ p{
 /* ********** Habilidades ********** */
 
 .habilidad{
-  margin: 0.5rem;
-  padding: 0 2rem;
-  width: 140px;
+  margin: 1vw;
+  width: 120px;
   height: auto;
   text-align: center;
   animation:sustencion 1s ease-in-out forwards infinite alternate-reverse;;
 }
 
 .habilidad svg{
-  width: 5rem;
+  width: 6rem;
   height: auto; 
 }
 
@@ -298,6 +297,17 @@ p{
     align-items: center;
     width: 500px;
     height: auto;
+  }
+
+  .boton{
+    margin-top: 2vw;
+  }
+  .btn-descarga{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--first-color);
+    padding: 1rem;
+    border-radius: 8px;
   }
 
   .about-img{
@@ -326,10 +336,7 @@ p{
       transform: translateX(0); /* Lo movemos hacia arriba */
     }
   }
-  
-h1{
-    
-  }  
+
 
 h4{
     display: block;
